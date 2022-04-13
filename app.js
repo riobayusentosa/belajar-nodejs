@@ -1,12 +1,11 @@
-// Modules
-const secret = "Super Secret"
-const john  = "john";
-const peter = "peter";
+// CommonJS, semua file adalah module
+// Modules, encapsulated code (only share minimum)
 
-const sayHi = (name) => {
-    console.log(`Hellp there ${name} `);
-}
+const names = require('./4-names')
+const sayHi = require('./5-utiles')
+const data = require('./6-alternative-flavor')
+require('./7-mind-grenade')
 
 sayHi("Rio")
-sayHi(john)
-sayHi(peter)
+sayHi(names.john)
+sayHi(names.peter)
