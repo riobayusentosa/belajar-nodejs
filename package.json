@@ -1,0 +1,24 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-intro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riobayusentosa/belajar-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riobayusentosa/belajar-nodejs/issues"
+  },
+  "homepage": "https://github.com/riobayusentosa/belajar-nodejs#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "loadsh": "0.0.4"
+  }
+}
